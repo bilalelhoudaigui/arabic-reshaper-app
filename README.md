@@ -75,6 +75,7 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#todo">TODO</a></li>
   </ol>
 </details>
 
@@ -87,7 +88,7 @@ Arabic Reshaper هو موقع يسمح بتحويل الكتابة العربي�
 <br/>
 
 <p align="center">
-  <img align="center" src="public/homepage.png" alt="Logo" width="600" height="350">
+  <img align="center" src="public/homepage.png" alt="Home Page" width="600" height="350">
 </p>
 
 ### Built With
@@ -182,14 +183,34 @@ Bilal El Houdaigui - [bilal.elhoudaigui@gmail.com](bilal.elhoudaigui@gmail.com)
 
 Project Link: [https://github.com/bilalelhoudaigui/arabic-reshaper-app](https://github.com/bilalelhoudaigui/arabic-reshaper-app)
 
-
-
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-
 * The [React team](https://reactjs.org/community/team.html) and the [guys who made and maitaining Material UI](https://material-ui.com/discover-more/team/).
 * Many thanks to Shen Yiming ([@soimy](https://github.com/soimy)) and ([@JesseDrain](https://github.com/JesseDrain)) for providing the [arabic-persian-reshaper](https://github.com/soimy/arabic-persian-reshaper) module.
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template): This guys are awesome!
+* [GitHub Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) and [https://gist.github.com/parmentf/035de27d6ed1dce0b36a](Git Commit message Emoji) :simple_smile:
+
+<!-- TODO -->
+## TODO
+
+* :sparkles: Features:
+  * [x] Add Material UI and Arabic font ([Tajawal](https://fonts.google.com/specimen/Tajawal))
+  * [x] Reshap Arabic text while typing (live reshap)
+  * [ ] Add Dark Theme
+  * [ ] Add 'copy to clipboard' 
+    * See [this one](https://stackoverflow.com/a/42844911/4488332) or [this one looks future-proof(er)](https://stackoverflow.com/a/62404717/4488332)
+
+<br/>
+
+* :rocket: Deployment:
+  * [x] Edit ReadMe
+  * [ ] Deploy the app
+  * [ ] Add Docker
+  * [ ] Add tests
+  * [ ] Mirror to gitlab and add CI
+
+  
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/bilalelhoudaigui/arabic-reshaper-app.svg?style=for-the-badge
