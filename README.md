@@ -88,7 +88,7 @@ Arabic Reshaper هو موقع يسمح بتحويل الكتابة العربي�
 <br/>
 
 <p align="center">
-  <img align="center" src="public/homepage.png" alt="Home Page" width="600" height="350">
+  <img align="center" src="public/screenshot.png" alt="Home Page" width="600" height="350">
 </p>
 
 ### Built With
@@ -201,16 +201,17 @@ Project Link: [https://github.com/bilalelhoudaigui/arabic-reshaper-app](https://
   * [ ] Add 'copy to clipboard' 
     * See [this one](https://stackoverflow.com/a/42844911/4488332) or [this one looks future-proof(er)](https://stackoverflow.com/a/62404717/4488332)
 
-<br/>
-
 * :rocket: Deployment:
-  * [x] Edit ReadMe
   * [ ] Deploy the app
   * [ ] Add Docker
   * [ ] Add tests
   * [ ] Mirror to gitlab and add CI
 
-  
+* :books: Documentation
+  * [x] Edit ReadMe
+  * [ ] Add 'How it works' page
+
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/bilalelhoudaigui/arabic-reshaper-app.svg?style=for-the-badge
