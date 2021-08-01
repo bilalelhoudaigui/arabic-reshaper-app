@@ -88,7 +88,7 @@ Arabic Reshaper هو موقع يسمح بتحويل الكتابة العربي�
 <br/>
 
 <p align="center">
-  <img align="center" src="public/screenshot.jpeg" alt="Home Page">
+  <img align="center" src="public/screenshot.png" alt="Home Page">
 </p>
 
 ### Built With
