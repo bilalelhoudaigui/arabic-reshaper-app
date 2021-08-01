@@ -1,21 +1,15 @@
 import React from 'react';
-import { ThemeProvider } from '@material-ui/core/styles';
 import { TextField } from '@material-ui/core';
 import { useEffect, useState } from 'react';
-import Avatar from '@material-ui/core/Avatar';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import FormatTextdirectionRToLIcon from '@material-ui/icons/FormatTextdirectionRToL';
-import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-import Container from '@material-ui/core/Container';
+import Alert from '@material-ui/lab/Alert';
 
 import reshaper from 'arabic-persian-reshaper'
 
-import Theme from './theme'
-
 const useStyles = makeStyles((theme) => ({
     paper: {
-        marginTop: theme.spacing(8),
+        marginTop: theme.spacing(1),
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -46,44 +40,41 @@ export default function ArabicForm() {
     }, [originalText])
 
     return (
-        <ThemeProvider theme={Theme}>
-            <Container component="main" maxWidth="lg">
-                <CssBaseline />
-                <div dir="rtl" className={classes.paper}>
-                    <Avatar className={classes.avatar}>
-                        <FormatTextdirectionRToLIcon />
-                    </Avatar>
-                    <Typography component="h1" variant="h5">
-                        Arabic Reshaper
-                    </Typography>
-                    <h2>النص الأصلي</h2>
-                    <TextField
-                        id="outlined-multiline-static-original"
-                        name="originalText"
-                        margin="normal"
-                        // label="النص الأصلي"
-                        placeholder="أدخل النص هنا"
-                        multiline
-                        rows={10}
-                        variant="outlined"
-                        onChange={e => setOriginalText(e.target.value)}
-                        value={originalText}
-                        required
-                        autoFocus
-                    />
-                    <h2>النص المعدل</h2>
-                    <TextField
-                        id="outlined-multiline-static-reshaped"
-                        name="reshapedText"
-                        margin="normal"
-                        // label="النص المعدل"
-                        multiline
-                        rows={10}
-                        variant="outlined"
-                        value={reshapedText}
-                    />
-                </div>
-            </Container>
-        </ThemeProvider>
+        <>
+            <CssBaseline />
+            <div dir="rtl" className={classes.paper}>
+                {/* <h2>النص الأصلي</h2> */}
+                <TextField
+                    id="outlined-multiline-static-original"
+                    name="originalText"
+                    margin="normal"
+                    label="النص الأصلي"
+                    placeholder="أدخل النص هنا"
+                    multiline
+                    rows={5}
+                    fullWidth
+                    variant="outlined"
+                    onChange={e => setOriginalText(e.target.value)}
+                    value={originalText}
+                    required
+                    autoFocus
+                />
+                <h2>
+                    { reshapedText && <span>قم بنسخ النص أسفله</span>}
+                </h2>
+                <TextField
+                    id="outlined-multiline-static-reshaped"
+                    name="reshapedText"
+                    margin="normal"
+                    label="النص المعدل"
+                    dir="rtl"
+                    multiline
+                    rows={5}
+                    fullWidth
+                    variant="outlined"
+                    value={reshapedText}
+                />
+            </div>
+        </>
     );
 }

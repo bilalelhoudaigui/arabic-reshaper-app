@@ -7,9 +7,7 @@ const theme = createTheme({
         MuiOutlinedInput: {
             multiline: {
                 fontWeight: 'bold',
-                fontSize: '20px',
-                color: 'purple',
-                width: '50vw'
+                fontSize: '20px'
             }
         }
     },
