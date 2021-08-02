@@ -1,5 +1,5 @@
 
-import { createTheme, ThemeProvider } from '@material-ui/core/styles';
+import { createTheme } from '@material-ui/core/styles';
 
 const theme = createTheme({
     // Get a beautiful TextArea in Material UI: https://stackoverflow.com/a/64051350/4488332
