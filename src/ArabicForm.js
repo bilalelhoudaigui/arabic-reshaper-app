@@ -3,7 +3,6 @@ import { TextField } from '@material-ui/core';
 import { useEffect, useState } from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { makeStyles } from '@material-ui/core/styles';
-import Alert from '@material-ui/lab/Alert';
 
 import reshaper from 'arabic-persian-reshaper'
 
