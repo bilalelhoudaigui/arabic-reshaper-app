@@ -42,7 +42,7 @@
     <a href="https://github.com/bilalelhoudaigui/arabic-reshaper-app/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/bilalelhoudaigui/arabic-reshaper-app">View Demo</a>
+    <a href="https://bilalelhoudaigui.github.io/arabic-reshaper-app/">View Demo</a>
     ·
     <a href="https://github.com/bilalelhoudaigui/arabic-reshaper-app/issues">Report Bug</a>
     ·
