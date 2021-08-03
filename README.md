@@ -197,12 +197,12 @@ Project Link: [https://github.com/bilalelhoudaigui/arabic-reshaper-app](https://
 * :sparkles: Features:
   * [x] Add Material UI and Arabic font ([Tajawal](https://fonts.google.com/specimen/Tajawal))
   * [x] Reshap Arabic text while typing (live reshap)
-  * [ ] Add Dark Theme
+  * [x] Add Dark Theme
   * [ ] Add 'copy to clipboard' 
     * See [this one](https://stackoverflow.com/a/42844911/4488332) or [this one looks future-proof(er)](https://stackoverflow.com/a/62404717/4488332)
 
 * :rocket: Deployment:
-  * [ ] Deploy the app
+  * [x] Deploy the app
   * [ ] Add Docker
   * [ ] Add tests
   * [ ] Mirror to gitlab and add CI
@@ -211,6 +211,8 @@ Project Link: [https://github.com/bilalelhoudaigui/arabic-reshaper-app](https://
   * [x] Edit ReadMe
   * [ ] Add 'How it works' page
 
+* :bug: Bug fix
+  * [x] Fix Tajawal font
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
