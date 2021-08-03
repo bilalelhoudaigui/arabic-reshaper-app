@@ -16,6 +16,31 @@ import AraAppBar from "./AraAppBar";
 
 const jss = create({ plugins: [...jssPreset().plugins, rtl()] });
 
+export const light = {
+  palette: {
+    type: "light"
+  },
+  // for some reason, the font get overrided if I put it in the main appTheme
+  typography: {
+    fontFamily: [
+      'Tajawal',
+      'sans-serif',
+    ].join(','),
+  },
+};
+
+export const dark = {
+  palette: {
+    type: "dark"
+  },
+  // for some reason, the font get overrided if I put it in the main appTheme
+  typography: {
+    fontFamily: [
+      'Tajawal',
+      'sans-serif',
+    ].join(','),
+  },
+};
 
 function App() {
   const [bgTheme, setBgTheme] = useState(true);
@@ -37,36 +62,19 @@ function App() {
       },
       // Right to left: https://v3.material-ui.com/guides/right-to-left/
       direction: 'rtl', // Both here and <body dir="rtl">
-      typography: {
-        fontFamily: [
-          'Tajawal',
-          'sans-serif',
-        ].join(','),
-      },
     });
 
   return (
-      <ThemeProvider theme={appTheme}>
-        <StylesProvider jss={jss}>
-          <Container component="main" maxWidth="lg">
-            <AraAppBar bgTheme={bgTheme} setBgTheme={setBgTheme} icon={icon} />
-            <Header />
-            <ArabicForm />
-          </Container>
-        </StylesProvider>
-      </ThemeProvider>
+    <ThemeProvider theme={appTheme}>
+      <StylesProvider jss={jss}>
+        <Container component="main" maxWidth="lg">
+          <AraAppBar bgTheme={bgTheme} setBgTheme={setBgTheme} icon={icon} />
+          <Header />
+          <ArabicForm />
+        </Container>
+      </StylesProvider>
+    </ThemeProvider>
   );
 }
-
-export const light = {
-  palette: {
-    type: "light"
-  }
-};
-export const dark = {
-  palette: {
-    type: "dark"
-  }
-};
 
 export default App;
