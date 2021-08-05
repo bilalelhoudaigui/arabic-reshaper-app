@@ -24,8 +24,8 @@ jobs:
     steps:
       # Checks-out the repository under $GITHUB_WORKSPACE, so that the job can access it
       - uses: actions/checkout@v2
-      # https://github.com/fregante/setup-git-user
-      - uses: fregante/setup-git-user@v1
+      - run: git config --global user.email "bilal.elhoudaigui@gmail.com"
+      - run: git config --global user.name "Bilal El Houdaigui"
 
       # Runs a single command using the runners shell
       - name: Install required dependencies
