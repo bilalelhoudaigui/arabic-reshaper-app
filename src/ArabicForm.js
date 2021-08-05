@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     avatar: {
         margin: theme.spacing(1),
         backgroundColor: theme.palette.primary.main,
-    },
+    }
 }));
 
 // TODO: Read more about Ref and how it works (https://stackoverflow.com/a/63559549/4488332)
@@ -98,7 +98,6 @@ export default function ArabicForm() {
                     variant="outlined"
                     onChange={e => setOriginalText(e.target.value)}
                     value={originalText}
-                    required
                     autoFocus
                 />
                 <h2>
@@ -118,8 +117,12 @@ export default function ArabicForm() {
                     InputProps={{
                         endAdornment: (
                             <InputAdornment position="end">
-                                <Button disabled={copySuccess} >
-                                    <FileCopyIcon onClick={handleCopyClick()} />
+                                <Button
+                                    startIcon={<FileCopyIcon />}
+                                    onClick={handleCopyClick()}
+                                    disabled={copySuccess}
+                                >
+                                    نسخ
                                 </Button>
                             </InputAdornment>
                         )
