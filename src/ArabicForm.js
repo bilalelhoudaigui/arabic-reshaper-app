@@ -82,7 +82,7 @@ export default function ArabicForm() {
     }, [originalText])
 
     return (
-        <>
+        <React.Fragment>
             <CssBaseline />
             <div dir="rtl" className={classes.paper}>
                 {/* <h2>النص الأصلي</h2> */}
@@ -135,6 +135,6 @@ export default function ArabicForm() {
                 </Snackbar>
             </div>
             <CopyToClipText text={copyText} />
-        </>
+        </React.Fragment>
     );
 }
