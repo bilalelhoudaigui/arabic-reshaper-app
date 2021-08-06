@@ -16,7 +16,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "deploy" it builds and deploy the app to 
-  deploy:
+  test:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -24,15 +24,7 @@ jobs:
     steps:
       # Checks-out the repository under $GITHUB_WORKSPACE, so that the job can access it
       - uses: actions/checkout@v2
-      - run: git config --global user.email "bilal.elhoudaigui@gmail.com"
-      - run: git config --global user.name "Bilal El Houdaigui"
 
       # Runs a single command using the runners shell
       - name: Install required dependencies
-        run: npm ci
-
-      # Runs a set of commands using the runners shell
-      - name: Buld and Deploy the application
-        run: |
-          echo Bulding and Deploying...
-          npm run deploy
+        run: npm test
