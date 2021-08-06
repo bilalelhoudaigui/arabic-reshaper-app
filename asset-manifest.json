@@ -1,19 +1,6 @@
 {
-  "files": {
-    "main.js": "/arabic-reshaper-app/static/js/main.735a3388.chunk.js",
-    "main.js.map": "/arabic-reshaper-app/static/js/main.735a3388.chunk.js.map",
-    "runtime-main.js": "/arabic-reshaper-app/static/js/runtime-main.b73e7032.js",
-    "runtime-main.js.map": "/arabic-reshaper-app/static/js/runtime-main.b73e7032.js.map",
-    "static/js/2.87619460.chunk.js": "/arabic-reshaper-app/static/js/2.87619460.chunk.js",
-    "static/js/2.87619460.chunk.js.map": "/arabic-reshaper-app/static/js/2.87619460.chunk.js.map",
-    "static/js/3.9dfdfbb5.chunk.js": "/arabic-reshaper-app/static/js/3.9dfdfbb5.chunk.js",
-    "static/js/3.9dfdfbb5.chunk.js.map": "/arabic-reshaper-app/static/js/3.9dfdfbb5.chunk.js.map",
-    "index.html": "/arabic-reshaper-app/index.html",
-    "static/js/2.87619460.chunk.js.LICENSE.txt": "/arabic-reshaper-app/static/js/2.87619460.chunk.js.LICENSE.txt"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.b73e7032.js",
-    "static/js/2.87619460.chunk.js",
-    "static/js/main.735a3388.chunk.js"
-  ]
+  "main.js": "static/js/main.f551e2f2.js",
+  "main.js.map": "static/js/main.f551e2f2.js.map",
+  "static/js/0.3fb2e363.chunk.js": "static/js/0.3fb2e363.chunk.js",
+  "static/js/0.3fb2e363.chunk.js.map": "static/js/0.3fb2e363.chunk.js.map"
 }
