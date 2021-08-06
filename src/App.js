@@ -9,14 +9,13 @@ import { createTheme } from "@material-ui/core/styles";
 import Brightness3Icon from "@material-ui/icons/Brightness3";
 import Brightness7Icon from "@material-ui/icons/Brightness7";
 
-import Header from './Header';
-import ArabicForm from './ArabicForm';
-
 // Configure JSS for RTL
 import { create } from 'jss';
 import rtl from 'jss-rtl';
 import { StylesProvider, jssPreset } from '@material-ui/core/styles';
-import AraAppBar from "./AraAppBar";
+import Layout from "./Layout";
+import AraRoutes from "./AraRoutes";
+
 
 const jss = create({ plugins: [...jssPreset().plugins, rtl()] });
 
@@ -46,7 +45,7 @@ export const dark = {
   },
 };
 
-function App() {
+function App(props) {
   const [bgTheme, setBgTheme] = useState(true);
   const icon = !bgTheme ? <Brightness7Icon /> : <Brightness3Icon />;
 
@@ -72,9 +71,12 @@ function App() {
     <ThemeProvider theme={appTheme}>
       <StylesProvider jss={jss}>
         <Container component="main" maxWidth="lg">
-          <AraAppBar bgTheme={bgTheme} setBgTheme={setBgTheme} icon={icon} />
+          <Layout {...props}>
+            <AraRoutes />
+          </Layout>
+          {/* <AraTopBar bgTheme={bgTheme} setBgTheme={setBgTheme} icon={icon} />
           <Header />
-          <ArabicForm />
+          <AraForm /> */}
         </Container>
       </StylesProvider>
     </ThemeProvider>

@@ -25,10 +25,10 @@ function Header() {
         <div className={classes.logo}>
             <img className="Header-logo" src="logo.png" alt="Logo" height="100px" />
             <h1>Arabic Reshaper</h1>
-            <Alert severity="info" dir="rtl">
+            <Alert severity="info">
                 {arabicIntro}
             </Alert>
-            <Alert severity="info">
+            <Alert severity="info" dir="ltr">
                 {englishIntro}
             </Alert>
         </div>
