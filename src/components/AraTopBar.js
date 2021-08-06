@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { AppBar, Toolbar, Typography, Button, IconButton } from '@material-ui/core';
+import { AppBar, Toolbar, Typography, Button } from '@material-ui/core';
 
 import FormControlLabel from '@material-ui/core/FormControlLabel'
 import SwitchUI from '@material-ui/core/Switch'
-import { CustomThemeContext } from './themes/CustomThemeProvider'
+import { CustomThemeContext } from '../themes/CustomThemeProvider'
 
 const useStyles = makeStyles((theme) => ({
   root: {

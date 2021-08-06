@@ -1,6 +1,6 @@
 import React from 'react';
-import AraForm from './AraForm';
-import Header from './Header';
+import AraForm from './components/AraForm';
+import Header from './components/AraHeader';
 
 
 function Home() {

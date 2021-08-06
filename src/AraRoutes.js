@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import Home from "./Home";
-import NotFound from "./NotFound";
-import HowItWorks from "./HowItWorks";
+import AraNotFound from "./components/AraNotFound";
+import HowItWorks from "./docs/HowItWorks";
 
 
 function AraRoutes() {
@@ -11,7 +11,7 @@ function AraRoutes() {
             <Switch>
                 <Route exact path="/"> <Home /></Route>
                 <Route exact path="/how-it-works"> <HowItWorks /></Route>
-                <Route path="/404" component={NotFound} />
+                <Route path="/404" component={AraNotFound} />
                 <Redirect to="/404" />
             </Switch>
         </BrowserRouter>

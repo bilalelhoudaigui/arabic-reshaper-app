@@ -3,7 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 
 
-function Footer() {
+function AraFooter() {
     return (
         <Typography variant="body2" color="textSecondary" align="center">
             جميع الحقوق <b>غير</b> محفوظة
@@ -17,4 +17,4 @@ function Footer() {
     );
 }
 
-export default Footer
+export default AraFooter

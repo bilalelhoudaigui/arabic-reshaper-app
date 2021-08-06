@@ -1,6 +1,6 @@
 import React from 'react';
-import AraTopBar from "./AraTopBar"
-import Footer from "./Footer"
+import AraTopBar from "./components/AraTopBar"
+import Footer from "./components/AraFooter"
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Box from "@material-ui/core/Box";
 
