@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/bilalelhoudaigui/arabic-reshaper-app">
+  <a href="https://github.com/bilalix/arabic-reshaper-app">
     <img src="public/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -39,14 +39,14 @@
   <p align="center">
     Reconstruct Arabic sentences to be used in applications which doesn't support Arabic
     <br />
-    <a href="https://github.com/bilalelhoudaigui/arabic-reshaper-app/blob/main/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/bilalix/arabic-reshaper-app/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://bilalelhoudaigui.github.io/arabic-reshaper-app/">View Demo</a>
+    <a href="https://bilalix.github.io/arabic-reshaper-app/">View Demo</a>
     ·
-    <a href="https://github.com/bilalelhoudaigui/arabic-reshaper-app/issues">Report Bug</a>
+    <a href="https://github.com/bilalix/arabic-reshaper-app/issues">Report Bug</a>
     ·
-    <a href="https://github.com/bilalelhoudaigui/arabic-reshaper-app/issues">Request Feature</a>
+    <a href="https://github.com/bilalix/arabic-reshaper-app/issues">Request Feature</a>
   </p>
 </p>
 
@@ -116,7 +116,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/bilalelhoudaigui/arabic-reshaper-app.git
+   git clone https://github.com/bilalix/arabic-reshaper-app.git
    ```
 2. Install NPM packages
    ```sh
@@ -158,7 +158,7 @@ As shown in the screenshot above, you can type the Arabic text in the first text
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/bilalelhoudaigui/arabic-reshaper-app/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/bilalix/arabic-reshaper-app/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -181,7 +181,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Bilal El Houdaigui - [bilal.elhoudaigui@gmail.com](bilal.elhoudaigui@gmail.com)
 
-Project Link: [https://github.com/bilalelhoudaigui/arabic-reshaper-app](https://github.com/bilalelhoudaigui/arabic-reshaper-app)
+Project Link: [https://github.com/bilalix/arabic-reshaper-app](https://github.com/bilalix/arabic-reshaper-app)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
@@ -216,15 +216,15 @@ Project Link: [https://github.com/bilalelhoudaigui/arabic-reshaper-app](https://
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/bilalelhoudaigui/arabic-reshaper-app.svg?style=for-the-badge
-[contributors-url]: https://github.com/bilalelhoudaigui/arabic-reshaper-app/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/bilalelhoudaigui/arabic-reshaper-app.svg?style=for-the-badge
-[forks-url]: https://github.com/bilalelhoudaigui/arabic-reshaper-app/network/members
-[stars-shield]: https://img.shields.io/github/stars/bilalelhoudaigui/arabic-reshaper-app.svg?style=for-the-badge
-[stars-url]: https://github.com/bilalelhoudaigui/arabic-reshaper-app/stargazers
-[issues-shield]: https://img.shields.io/github/issues/bilalelhoudaigui/arabic-reshaper-app.svg?style=for-the-badge
-[issues-url]: https://github.com/bilalelhoudaigui/arabic-reshaper-app/issues
-[license-shield]: https://img.shields.io/github/license/bilalelhoudaigui/arabic-reshaper-app.svg?style=for-the-badge
-[license-url]: https://github.com/bilalelhoudaigui/arabic-reshaper-app/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/bilalix/arabic-reshaper-app.svg?style=for-the-badge
+[contributors-url]: https://github.com/bilalix/arabic-reshaper-app/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/bilalix/arabic-reshaper-app.svg?style=for-the-badge
+[forks-url]: https://github.com/bilalix/arabic-reshaper-app/network/members
+[stars-shield]: https://img.shields.io/github/stars/bilalix/arabic-reshaper-app.svg?style=for-the-badge
+[stars-url]: https://github.com/bilalix/arabic-reshaper-app/stargazers
+[issues-shield]: https://img.shields.io/github/issues/bilalix/arabic-reshaper-app.svg?style=for-the-badge
+[issues-url]: https://github.com/bilalix/arabic-reshaper-app/issues
+[license-shield]: https://img.shields.io/github/license/bilalix/arabic-reshaper-app.svg?style=for-the-badge
+[license-url]: https://github.com/bilalix/arabic-reshaper-app/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/bilalelhoudaigui
+[linkedin-url]: https://linkedin.com/in/bilalix
