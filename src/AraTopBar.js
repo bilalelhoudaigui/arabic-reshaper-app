@@ -1,6 +1,10 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { AppBar, Toolbar, Typography, Button, IconButton } from '@material-ui/core';
+
+import FormControlLabel from '@material-ui/core/FormControlLabel'
+import SwitchUI from '@material-ui/core/Switch'
+import { CustomThemeContext } from './themes/CustomThemeProvider'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -16,36 +20,22 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export const light = {
-  palette: {
-    type: "light"
-  },
-  // for some reason, the font get overrided if I put it in the main appTheme
-  typography: {
-    fontFamily: [
-      'Tajawal',
-      'sans-serif',
-    ].join(','),
-  },
-};
-
-export const dark = {
-  palette: {
-    type: "dark"
-  },
-  // for some reason, the font get overrided if I put it in the main appTheme
-  typography: {
-    fontFamily: [
-      'Tajawal',
-      'sans-serif',
-    ].join(','),
-  },
-};
-
-export default function AraTopBar(props) {
+export default function AraTopBar() {
   const classes = useStyles();
 
-  const { bgTheme, setBgTheme, icon } = props
+  const { currentTheme, setTheme } = useContext(CustomThemeContext)
+  const isDark = Boolean(currentTheme === 'dark')
+
+  const themeText = !isDark ? 'نهار' : 'ليل';
+
+  const handleThemeChange = (event) => {
+    const { checked } = event.target
+    if (checked) {
+      setTheme('dark')
+    } else {
+      setTheme('normal')
+    }
+  }
 
   return (
     <div className={classes.root}>
@@ -55,16 +45,12 @@ export default function AraTopBar(props) {
             <Button color="inherit" href="/">الصفحة الرئيسية</Button>
             <Button color="inherit" href="/how-it-works">للفضوليين</Button>
           </Typography>
-          <IconButton
-            edge="end"
-            color="inherit"
-            aria-label="mode"
-            onClick={() => setBgTheme(!bgTheme)}
-          >
-            {icon}
-          </IconButton>
+          <FormControlLabel
+            control={<SwitchUI checked={isDark} onChange={handleThemeChange} />}
+            label={themeText}
+          />
         </Toolbar>
       </AppBar>
-    </div>
+    </div >
   );
 }
