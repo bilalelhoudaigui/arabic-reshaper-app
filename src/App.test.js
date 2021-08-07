@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-import { arabicIntro, englishIntro } from './Header'
+import { arabicIntro, englishIntro } from './components/AraHeader'
 
 it('should render the content', () => {
   render(<App />);

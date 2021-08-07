@@ -44,7 +44,7 @@ function Alert(props) {
     return <MuiAlert elevation={6} variant="filled" {...props} />;
 }
 
-export default function ArabicForm() {
+export default function AraForm() {
     const classes = useStyles()
 
     const [originalText, setOriginalText] = useState('')
@@ -84,7 +84,7 @@ export default function ArabicForm() {
     return (
         <React.Fragment>
             <CssBaseline />
-            <div dir="rtl" className={classes.paper}>
+            <div className={classes.paper}>
                 {/* <h2>النص الأصلي</h2> */}
                 <TextField
                     id="outlined-multiline-static-original"
@@ -108,7 +108,6 @@ export default function ArabicForm() {
                     name="reshapedText"
                     margin="normal"
                     label="النص المعدل"
-                    dir="rtl"
                     multiline
                     rows={5}
                     fullWidth

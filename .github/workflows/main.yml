@@ -30,7 +30,7 @@ jobs:
         run: npm ci
 
       # Runs a set of commands using the runners shell
-      - name: Buld and Deploy the application
+      - name: Build and Deploy the application
         run: |
           echo Running tests...
           npm test

@@ -88,7 +88,7 @@ Arabic Reshaper هو موقع يسمح بتحويل الكتابة العربي�
 <br/>
 
 <p align="center">
-  <img align="center" src="public/screenshot.png" alt="Home Page">
+  <img align="center" src="public/images/homepage.png" alt="Home Page">
 </p>
 
 ### Built With
@@ -198,7 +198,7 @@ Project Link: [https://github.com/bilalix/arabic-reshaper-app](https://github.co
   * [x] Add Material UI and Arabic font ([Tajawal](https://fonts.google.com/specimen/Tajawal))
   * [x] Reshap Arabic text while typing (live reshap)
   * [x] Add Dark Theme
-  * [ ] Add 'copy to clipboard' 
+  * [x] Add 'copy to clipboard' 
     * See [this one](https://stackoverflow.com/a/42844911/4488332) or [this one looks future-proof(er)](https://stackoverflow.com/a/62404717/4488332)
 
 * :rocket: Deployment:
@@ -213,6 +213,7 @@ Project Link: [https://github.com/bilalix/arabic-reshaper-app](https://github.co
 
 * :bug: Bug fix
   * [x] Fix Tajawal font
+  * [ ] Fix Theme (see [Issues](https://github.com/bilalix/arabic-reshaper-app/issues/10))
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
