@@ -200,6 +200,7 @@ Project Link: [https://github.com/bilalix/arabic-reshaper-app](https://github.co
   * [x] Add Dark Theme
   * [x] Add 'copy to clipboard' 
     * See [this one](https://stackoverflow.com/a/42844911/4488332) or [this one looks future-proof(er)](https://stackoverflow.com/a/62404717/4488332)
+  * [ ] Switch between English and Arabic  
 
 * :rocket: Deployment:
   * [x] Deploy the app
@@ -209,7 +210,7 @@ Project Link: [https://github.com/bilalix/arabic-reshaper-app](https://github.co
 
 * :books: Documentation
   * [x] Edit ReadMe
-  * [ ] Add 'How it works' page
+  * [x] Add 'How it works' page
 
 * :bug: Bug fix
   * [x] Fix Tajawal font
@@ -228,4 +229,4 @@ Project Link: [https://github.com/bilalix/arabic-reshaper-app](https://github.co
 [license-shield]: https://img.shields.io/github/license/bilalix/arabic-reshaper-app.svg?style=for-the-badge
 [license-url]: https://github.com/bilalix/arabic-reshaper-app/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/bilalix
+[linkedin-url]: https://linkedin.com/in/bilalelhoudaigui
